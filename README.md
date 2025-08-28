@@ -2,11 +2,11 @@
 
 ## Information Technology And Cybersecurity
 
-### Projects
+### 🌱 Projects
 
-  Keylogger Program - Creating a Python program that will log keystrokes on a local machine
+  - [Keylogger Program](https://github.com/OmegaWizard-107/OmegaWizard-107/blob/main/Keylog.py) - Creating a Python program that will log keystrokes on a local machine
   
-  Password Cracker - Creating a Python program that will brute force using a dictionary attack
+  - [Password Cracker](https://github.com/OmegaWizard-107/OmegaWizard-107/blob/main/PassCrack.py) - Creating a Python program that will brute force using a dictionary attack
 
 <!--
 **OmegaWizard-107/OmegaWizard-107** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
