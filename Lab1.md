@@ -5,7 +5,7 @@
 
 ## Part 1 - GitHub Profile
 
-1. [your_github_username_here's GitHub Profile](FIXTHISURL-https://github.com/your_username)
+1. https://github.com/OmegaWizard-107
 
 ## Part 2 - Research
 
@@ -20,7 +20,7 @@
 | Move-Item | mv        | Moves an item from one place to another, can also be used to rename |
 | Copy-Item | cp        | copies an item from one place to another |
 | Remove-Item | rm      | deletes an item or directory |
-| notepad.exe | vim     | opens the file editor (notepad/vim/neovim) |
+| notepad.exe | vim     | opens the file editor (notepad/vim) |
 
 ## Part 3 - Command Line Navigation
 
@@ -29,26 +29,26 @@ My OS is:
 - [x] Linux
 - [] Mac
 
-My Command Line Shell is: 
+My Command Line Shell is: bash
 
 ### Navigating My OS on the Command Line
 
-1. Full / absolute path to your user's home directory:
-2. Create a directory named `DirA`:
-3. Create a directory named `Dir B`:
-4. Go into `DirA`:
-5. Go into `Dir B` from `DirA`:
-6. Return to your user's home directory:
-7. Create a file named `test.txt`:
-8. Move the file named `test.txt` into `DirA`:
-9. Contents of `test.txt`:
+1. Full / absolute path to your user's home directory: pwd
+2. Create a directory named `DirA`: mkdir DirA
+3. Create a directory named `Dir B`: mkdir 'Dir B'
+4. Go into `DirA`: cd DirA
+5. Go into `Dir B` from `DirA`: cd ~/'Dir B'/
+6. Return to your user's home directory: cd
+7. Create a file named `test.txt`: touch test.txt
+8. Move the file named `test.txt` into `DirA`: mv test.txt ./DirA/
+9. Contents of `test.txt`: vim test.txt
 ```
-Put your words here
+You can do it!
 ```
-10. Make a copy of `test.txt` named `copy.txt` in `DirA`:
-11. View the contents of `DirA`: 
-12. Make a copy of `test.txt` in `Dir B` named `fodder.txt`:
-13. Delete / remove both `fodder.txt` AND `Dir B`:
+10. Make a copy of `test.txt` named `copy.txt` in `DirA`: cp ./DirA/test.txt ./DirA/copy.txt
+11. View the contents of `DirA`: ls ./DirA/
+12. Make a copy of `test.txt` in `Dir B` named `fodder.txt`: cp ./DirA/test.txt ./'Dir B'/fodder.txt
+13. Delete / remove both `fodder.txt` AND `Dir B`: rm -rf 'Dir B'
 
 ## Citations
 
