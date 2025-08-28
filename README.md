@@ -5,6 +5,7 @@
 ### Projects
 
   Keylogger Program - Creating a Python program that will log keystrokes on a local machine
+  
   Password Cracker - Creating a Python program that will brute force using a dictionary attack
 
 <!--
